@@ -1,0 +1,35 @@
+{
+  "name": "contracts",
+  "version": "0.1.0",
+	"description": "Heartache Blocks - A Heartache Box for Blockchain. Smart contracts.",
+	"author": "Ralph Greschner <ralph.greschner@gmail.com> (http://www.ralph-greschner.de)",
+	"keywords": [
+		"react",
+		"blockchain",
+		"ethereum",
+		"solidity",
+		"cms",
+		"complaint",
+		"complaint-management-system"
+	],
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build-typings": "typechain --target web3-1.0.0 ./build/contracts/*.json && cp -dpR ./types ../submitter-ui/src/shared && cp ./build/contracts/HeartacheBox.json ../submitter-ui/src/shared",
+    "test": "tsc && truffle test ./test/simple.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "@types/mocha": "^2.2.42",
+    "@types/node": "^8.0.26",
+    "chai": "^4.1.1",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "bn.js": "4.11.8",
+    "openzeppelin-solidity": "2.1.2"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "heartache-blocks",
+  "version": "0.1.0",
+  "description": "Heartache Blocks - A Heartache Box for Blockchain.",
+  "author": "Ralph Greschner <ralph.greschner@gmail.com> (http://www.ralph-greschner.de)",
+  "keywords": [
+    "react",
+    "blockchain",
+    "ethereum",
+    "solidity",
+    "cms",
+    "complaint",
+    "complaint-management-system"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.4.3"
+  }
+}
